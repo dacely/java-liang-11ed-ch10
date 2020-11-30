@@ -22,6 +22,7 @@ public class PrimeNumbers
         if (stack.getSize() == 1)
             System.out.printf("%d", stack.pop());
     }
+
     public static boolean isPrime(int n)
     {
         if (n < 2) return false;

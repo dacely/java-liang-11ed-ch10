@@ -18,7 +18,7 @@ public class LargeFactorial
         BigInteger result = BigInteger.ONE;
 
         for (int i = 1; i <= n; i++)
-            result = result.multiply(new BigInteger(i + ""));
+            result = result.multiply(BigInteger.valueOf(i));
 
         return result;
     }
